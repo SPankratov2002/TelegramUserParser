@@ -1,0 +1,45 @@
+# Python кэшированные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Сессии Pyrogram и Telethon
+*.session
+*.session-journal
+
+# Конфигурационные и чувствительные данные
+.env
+config.json
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+env/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Текстовые редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Пакеты и зависимости
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Логи
+logs/
+*.log
+
+# Файлы пользователей
+users.json
